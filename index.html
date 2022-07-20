@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Love Calculator</title>
+
+    <!-- Bootstrap CDN Link CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="main container-fluid mb-2">
+      <h1>
+        Here is the Love Calculator that lets calculate love compatibility and
+        your chances of a sucessful Realtionship
+      </h1>
+      <img
+        class="img-fluid loveCIMAGE"
+        src="./hearts.png"
+        alt="Sorry Not able fetch the photo"
+      />
+    </div>
+    <div class="container-fluid middle">
+      <h1 class="mb-3">CHECK HERE</h1>
+      <div class="row inputRow mb-4">
+        <div class="col-md-6 inputField">
+          <input
+            type="text"
+            class="form-control input1"
+            placeholder="enter the male name"
+            value=""
+          />
+        </div>
+        <div class="col-md-6 inputField">
+          <input
+            type="email"
+            class="form-control input2"
+            placeholder="enter the female name"
+            value=""
+          />
+        </div>
+      </div>
+      <div>
+        <a href="#answer">
+          <button class="btn btn-danger" onclick="myFunction()">CLICKME</button>
+        </a>
+      </div>
+    </div>
+
+    <div id="answer">
+      <h1 class="result">Let's See</h1>
+    </div>
+
+    <!-- Bootstrap CDN Link JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <!-- The file JS Link -->
+    <script src="./index.js"></script>
+  </body>
+</html>

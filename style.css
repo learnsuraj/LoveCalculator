@@ -1,0 +1,39 @@
+body {
+  background-color: #A10035;
+  scroll-behavior: smooth;
+}
+.main {
+  padding: 3% 15%;
+  text-align: center;
+}
+.main h1 {
+  color: #FFE7BF;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.6rem;
+  letter-spacing: 1.5px;
+}
+.loveCIMAGE {
+  height: 450px;
+  width: 500px;
+}
+.middle {
+  padding: 0% 15%;
+  text-align: center;
+}
+.middle h1{
+    color: #FFE7BF;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 3rem;
+}
+.inputRow{
+    padding: 0% 15%;
+}
+#answer{
+    padding: 5% 15%;
+    text-align: center;
+}
+#answer h1{
+    color: #FFE7BF;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 2rem;
+}
